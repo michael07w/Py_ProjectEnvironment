@@ -6,17 +6,17 @@ def main():
     proj_name = input("> ")
 
     # Creates necessary directories
-    bin = classes.Directory("bin")
-    bin.createDir()
+    bin_dir = classes.Directory("bin")
+    bin_dir.createDir()
 
-    docs = classes.Directory("docs")
-    docs.createDir()
+    docs_dir = classes.Directory("docs")
+    docs_dir.createDir()
 
-    name = classes.Directory(proj_name)
-    name.createDir()
+    name_dir = classes.Directory(proj_name)
+    name_dir.createDir()
 
-    tests = classes.Directory("tests")
-    tests.createDir()
+    tests_dir = classes.Directory("tests")
+    tests_dir.createDir()
 
 
     # Creates necessary files
