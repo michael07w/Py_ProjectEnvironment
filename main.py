@@ -6,6 +6,8 @@ def main():
     proj_name = input("> ")
 
     # Creates necessary directories
+    print("Creating Directories...")
+
     bin_dir = classes.Directory("bin")
     bin_dir.createDir()
 
